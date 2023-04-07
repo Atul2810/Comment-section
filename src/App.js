@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Separate_comment from "./Separate_comment";
+import Separate_comment from "./Component/Separate_comment";
 
 function App() {
   const [comment, setComment] = useState("");
@@ -12,9 +12,6 @@ function App() {
   const onChangeHandler = (e) => {
     setComment(e.target.value);
   };
-
-
-  
   return (
     <div className="main-container">
       <div className="comment-flexbox">

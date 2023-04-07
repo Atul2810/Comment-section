@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Reply_comment from './Reply_comment';
-import "./index.css"
 
 function Separate_comment(props) {
     const [like,setLike]=useState(0);
